@@ -1,0 +1,18 @@
+Pregunta 1
+a)
+	1)En la funcion is_prime se declara una variable local num que nunca se usa 
+	2)La funcion is_prime no cumple en buscar si es primo o no ya que solo evalua si es <= 1 lo cual es incorrecto para comprobar si es un numero primo
+	3) La funcion solo retorna cuando es if deberia retornanar tambien cuando no cumple es decir un return 0
+	4)Se declara una variable "i" pero nunca se usa
+	5)Se usa una variable $patron pero en ningun momento se declara lo cual no tiene sentido
+	6)No se valdia en ningun momento los valores correctos de $n1 y $n2 
+	7) No tiene sentido la variable dig ya que este simpre siempre saca el primer digito de la varible $n1
+	8) En la linea 18 hay un error de sintaxis no es la forma adecuada de usar una funcion dentro algo que esta esperando el condicional 
+c)
+	i) Sin argumentos manda un mensaje de error diciendo que no tiene argumentos
+	ii)Manda mensaje de error de la misma forma que en i)
+	iii)Muestra los valores con digito 1 ademas en ellos se puede ver que solo uno de ese rango es primo
+
+d)
+	i)El tiempo que tomo este de ejemplo es de 0m0,544s que vendría a ser el tiempo real en cuanto al de mi programa este salio 0m0,030s 
+	ii)real es diferente a user + sys ya que user es el tiempo real tomado por el reloj mientras que el user y sistem miden cuanto tiempo de CPU se uso y muchas veces este resultado es diferente ya que puede que los tiempo del uno y o otro se solapen o superpornerse así este tiempo cambia pudiendo salir mas que el tiempo real como el caso del ejemplo
